@@ -4,7 +4,7 @@ body{
 section{
     padding-left: 80px;
     padding-right: 70px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 :root{
     --text-color:#ffffff;
@@ -33,8 +33,8 @@ section > *{
     padding: 12px;
 }
 .nav-element{
-    font-size: 20px;
-    margin-top: 1em;
+    font-size: 16px;
+    margin-top: 1.5em;
     color: var(--bg--color);
     text-decoration: none;
     font-weight: 500;
@@ -45,22 +45,8 @@ section > *{
 .nav-element:hover{
     color: var(--main-color);
 }
-.nav-btn{
-    height: 40px;
-    margin-top: 0.9em;
-    padding: 2px 16px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: none;
-    box-shadow: 1px 1px 5px var(--bg--color);
-    background-color: var(--main-color);
-    color: var(--text-color);
-    margin-left: 4em;
-}
-.nav-btn:hover{
-    background-color: var(--bg--color);
-}
-.home{
+
+.homepage{
     background-image: url(./blue-curve-background.avif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,7 +61,7 @@ h2{
     color: #03346E;
 }
 .home-p{
-    font-size: 18px;
+    font-size: 16px;
     text-align: left;
     line-height: 1.4;
 }
@@ -85,7 +71,7 @@ h2{
 .home-btn{
     height: 40px;
     padding: 2px 16px;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 5px;
     border: none;
     box-shadow: 1px 1px 5px var(--bg--color);
@@ -97,10 +83,95 @@ h2{
 }
 .about{
     text-align: center;
-    font-size: 42px;
+    font-size: 30px;
     color: #03346E;
 }
 .social-icon{
-    height: 50px;
+    margin-right: 1.5em;
     margin-top: 2em;
+}
+#email-icon{
+    height: 35px;
+}
+#git-icon{
+    height: 41px;
+}
+#phone-icon{
+    height: 37px;
+}
+.aboutpage{
+    height: 80vh;
+    background-color: lightblue;
+    padding: 40px;
+}
+.about-text{
+    text-align: center;
+}
+.my-skills{
+    font-size: 24px;
+}
+.my-experience{
+    font-size: 24px;
+}
+.grid-about{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    column-gap: 150px;
+    margin-left: 25em;
+}
+.services{
+    height: 80vh;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.services-head{
+    text-align: center;
+    font-size: 30px;
+    color: #03346E;
+}
+.services-card{
+    border: 1px solid #ccc;
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: rgb(217, 220, 224);
+    margin-top: 2em;
+}
+.grid-services{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    column-gap: 40px;
+    margin-left: 6em;
+}
+.projects{
+    height: 80vh;
+    background-color: lightgray;
+    padding: 40px;
+}
+.projects-head{
+    text-align: center;
+    font-size: 30px;
+    color: #03346E;
+}
+.images{
+    height: 80vh;
+    background-color: rgb(237, 166, 208);
+    padding: 40px;
+}
+.images-head{
+    text-align: center;
+    font-size: 30px;
+    color: #03346E;
+}
+footer{
+    background-color: blue;
+    padding: 20px;
+}
+footer > p{
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }

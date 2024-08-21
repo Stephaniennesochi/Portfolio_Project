@@ -11,16 +11,17 @@
 </head>
 <body>
     <nav class="navbar">
-        <img class="nav-logo" src="./kene-high-resolution-logo-transparent.png" alt="mylogo">
-        <a class="nav-element" id="homebar" href="#home">Home</a>
-        <a class="nav-element" href="#about">About</a>
-        <a class="nav-element" href="#services">Services</a>
-        <a class="nav-element" href="#projects">Projects</a>
-        <a class="nav-element" href="#images">Images</a>
-        <input class="nav-btn" type="button" value="Contact me">
+        <a href="./portfolio.html#home-sect"><img class="nav-logo" src="./kene-high-resolution-logo-transparent.png" alt="mylogo"></a> 
+        <a class="nav-element" id="homebar" href="./portfolio.html#home-sect">Home</a>
+        <a class="nav-element" href="./portfolio.html#about">About</a>
+        <a class="nav-element" href="./portfolio.html#projects">Projects</a>
+        <a class="nav-element" href="./portfolio.html#services">Blogs</a>
+        <a class="nav-element" href="./portfolio.html#images">Contact</a>
+        <a class="nav-element" href="./portfolio.html#images">Design and Navigation</a>
+        <a class="nav-element" href="./portfolio.html#images">Additional Tips</a>
     </nav>
-    <section class="home">
-        <img class="myimg" src="./laptopp.png">
+    <section class="homepage" id="home-sect" >
+        <img class="myimg" src="./laptopp.png" alt="a laptop">
         <h2>I'm <span class="home-h1"> </span></h2>
         <p class="home-p">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis placeat voluptas magnam cumque voluptate. Amet, iste debitis, rem ullam
@@ -30,16 +31,64 @@
             ntium officiis incidunt esse porro error aliquid. Autem aspernatur sequi modi aliquid eos rerum molestias reprehenderit saepe.
         </p>
         <input class="home-btn" type="button" value="Learn more">
-        <div>
-            <a href="https://github.com/chibzdee"><img class="social-icon" src="./github.png"></a>
+        <div class="flex-icons">
+            <a href="https://github.com/chibzdee"><img class="social-icon" id="git-icon" src="./github.png" alt="github-icon"></a>
+            <a href="https://www.gmail.com/didiguchibuikem@gmail.com"><img class="social-icon" id="email-icon" src="./4550857_email_gmail_mail_sending_yahoo_icon.png"alt="email-icon" ></a>
+            <a href="https://github.com/chibzdee"><img class="social-icon" id="phone-icon"  src="./telephone.png" alt="phone-icon" ></a>
         </div>
     </section>
-    <section class="about">
+
+    <section class="aboutpage" id="about">
         <p class="about">About Me</p>
+        <img src="" alt="">
+        <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sapiente pariatur adipisci magni sed facilis harum tempora id dolores amet laborum at laudantium, ipsa, optio quibusdam omnis, tenetur numquam deserunt.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci fuga, quae nisi accusamus quasi nihil corporis? Id suscipit fuga voluptates atque laboriosam quos alias! Exercitationem labore iusto deserunt optio aperiam?
+        </p>
+        <div class="grid-about">
+            <div>
+                <p class="my-skills">Skills</p>
+
+            </div>
+
+            <div class="my-experience">
+               <p>Experience</p>
+                
+            </div>  
+        </div>     
     </section>
-    <section class="services"></section>
-    <section class="projects"></section>
-    <section class="images"></section>
+
+    <section class="projects" id="projects">
+        <p class="projects-head">My projects</p> 
+    </section>
+
+    <section class="services" id="services">
+        <p class="services-head">My Services</p>
+        <div class="grid-services">
+            <div class="services-card">
+                <img class="services-img" src="" alt="">
+                <p class="services-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et aliquet erat. Duis hendrerit a sem vitae tempor.<p>
+                    Ut in mattis magna. Quisque mattis a odio a congue. </p>
+            </div>
+            <div class="services-card">
+                <img class="services-img " src="" alt="">
+                <p class="services-p">Duis convallis dignissim odio. Nullam vulputate diam nibh, id congue ante consequat vitae.</p>
+                    Vivamus aliquet lectus vitae lacus lobortis congue. 
+            </div>
+            <div class="services-card">
+                <img class="services-img" src="" alt="">
+                <p class="services-p">Vivamus id purus id odio posuere facilisis eget id magna. Quisque vel lacinia tortor.</p>
+                    Aenean ut leo finibus sapien dictum tempus et sed enim. Nunc sit amet volutpat nulla.
+            </div>
+        </div>
+    </section>
+
+    <section class="images" id="images">
+        <p class="images-head">Images</p>
+    </section>
+    <footer>
+        <p>Copyright &copy; 2024 Didigu Kenechukwu</p>
+    </footer>
+
 
     <!--js link-->
     <script src="./index.js"></script>
