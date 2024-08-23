@@ -4,103 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project_Portfolio</title>
-    <link rel="stylesheet" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <nav class="navbar">
-        <a href="./portfolio.html#home-sect"><img class="nav-logo" src="./kene-high-resolution-logo-transparent.png" alt="mylogo"></a> 
-        <a class="nav-element" id="homebar" href="./portfolio.html#home-sect">Home</a>
-        <a class="nav-element" href="./portfolio.html#about">About</a>
-        <a class="nav-element" href="./portfolio.html#projects">Projects</a>
-        <a class="nav-element" href="./portfolio.html#services">Blogs</a>
-        <a class="nav-element" href="./portfolio.html#images">Contact</a>
-        <a class="nav-element" href="./portfolio.html#images">Design and Navigation</a>
-        <a class="nav-element" href="./portfolio.html#images">Additional Tips</a>
-    </nav>
-    <section class="homepage" id="home-sect" >
-        <img class="myimg" src="./laptopp.png" alt="a laptop">
-        <h2>I'm <span class="home-h1"> </span></h2>
-        <p class="home-p">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis placeat voluptas magnam cumque voluptate. Amet, iste debitis, rem ullam
-            dolorem, impedit magnam libero modi possimus animi doloremque accusamus maiores aliquam.Lorem ipsum dolor sit amet consectetur adipisic
-            ing elit. Velit animi facere assumenda impedit architecto beatae ea? Illum quo doloremque commodi dolores soluta cupiditate, omnis saep
-            e, sapiente quis corrupti eligendi!Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla debitis commodi at consectetur accusa
-            ntium officiis incidunt esse porro error aliquid. Autem aspernatur sequi modi aliquid eos rerum molestias reprehenderit saepe.
-        </p>
-        <input class="home-btn" type="button" value="Learn more">
-        <div class="flex-icons">
-            <a href="https://github.com/chibzdee"><img class="social-icon" id="git-icon" src="./github.png" alt="github-icon"></a>
-            <a href="https://www.gmail.com/didiguchibuikem@gmail.com"><img class="social-icon" id="email-icon" src="./4550857_email_gmail_mail_sending_yahoo_icon.png"alt="email-icon" ></a>
-            <a href="https://github.com/chibzdee"><img class="social-icon" id="phone-icon"  src="./telephone.png" alt="phone-icon" ></a>
-        </div>
-    </section>
-
-    <section class="aboutpage" id="about">
-        <p class="about">About Me</p>
-        <img src="" alt="">
-        <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sapiente pariatur adipisci magni sed facilis harum tempora id dolores amet laborum at laudantium, ipsa, optio quibusdam omnis, tenetur numquam deserunt.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci fuga, quae nisi accusamus quasi nihil corporis? Id suscipit fuga voluptates atque laboriosam quos alias! Exercitationem labore iusto deserunt optio aperiam?
-        </p>
-        <div class="grid-about">
-            <div>
-                <p class="my-skills">Skills</p>
-
+<body class="main-content">
+    <header class="section sect1 header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <h1 class="name">
+                    Hi, I'm <span>Didigu Kenechukwu</span>
+                    A Data Scientist
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quos temporibus odit rerum? Modi fugit vel natus ullam perferendis ipsum ut quia harum sequi, ratione exercitationem aliquid id dolor magnam.</p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis obcaecati eveniet ab maxime deleniti delectus incidunt enim, vero quidem reiciendis. Ipsam, maxime velit minima maiores atque dolorum possimus architecto recusandae.
+                <a href="" class="main-btn">
+                    <span class="btn-text">Download CV</span>
+                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                </a>
             </div>
-
-            <div class="my-experience">
-               <p>Experience</p>
-                
-            </div>  
-        </div>     
-    </section>
-
-    <section class="projects" id="projects">
-        <p class="projects-head">My projects</p> 
-    </section>
-
-    <section class="services" id="services">
-        <p class="services-head">My Services</p>
-        <div class="grid-services">
-            <div class="services-card">
-                <img class="services-img" src="" alt="">
-                <p class="services-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et aliquet erat. Duis hendrerit a sem vitae tempor.<p>
-                    Ut in mattis magna. Quisque mattis a odio a congue. </p>
-            </div>
-            <div class="services-card">
-                <img class="services-img " src="" alt="">
-                <p class="services-p">Duis convallis dignissim odio. Nullam vulputate diam nibh, id congue ante consequat vitae.</p>
-                    Vivamus aliquet lectus vitae lacus lobortis congue. 
-            </div>
-            <div class="services-card">
-                <img class="services-img" src="" alt="">
-                <p class="services-p">Vivamus id purus id odio posuere facilisis eget id magna. Quisque vel lacinia tortor.</p>
-                    Aenean ut leo finibus sapien dictum tempus et sed enim. Nunc sit amet volutpat nulla.
+            <div class="right-header">
+                <div class="h-shape">
+                    <div class="image">
+                        <img src="./laptopp.png" alt="laptop">
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
-
-    <section class="images" id="images">
-        <p class="images-head">Images</p>
-    </section>
+    </header>
+    <main>
+        <section class="section sect2 about" id="about"></section>
+        <section class="section sect3 projects" id="projects"></section>
+        <section class="section sect4 blogs" id="blogs"></section>
+        <section class="section sect5 contact" id="contact"></section>
+    </main>
+    <div class="controls">
+        <div class="control control-1 active-btn" data-id="home">
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control control-2 " data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control control-3 " data-id="projects">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control control-4 " data-id="blogs">
+            <i class="fas fa-newspaper"></i>
+        </div>
+        <div class="control control-5 " data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
+    </div>
     <footer>
         <p>Copyright &copy; 2024 Didigu Kenechukwu</p>
     </footer>
 
-
-    <!--js link-->
-    <script src="./index.js"></script>
-
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed(".home-h1", {
-            strings:["Didigu Kenechukwu", " a Data Scientist", "an AI Specialist "],
-            typeSpeed:70,
-            backSpeed:65,
-            loop:true
-        })
-    </script>
+    <nav class="navbar">
+        <a href="./portfolio.html#home-sect"><img class="nav-logo" src="./kene-high-resolution-logo-transparent.png" alt="mylogo"></a> 
+        <a class="nav-element" id="homenav" href="./portfolio.html#home-sect">Home</a>
+        <a class="nav-element" href="./portfolio.html#about">About</a>
+        <a class="nav-element" href="./portfolio.html#projects">Projects</a>
+        <a class="nav-element" href="./portfolio.html#blog">Blogs</a>
+        <a class="nav-element" href="./portfolio.html#contact">Contact</a>
+    </nav>
+    <script src="./app.js"></script>
 </body>
 </html>
