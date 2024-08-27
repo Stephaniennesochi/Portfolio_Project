@@ -168,6 +168,7 @@ footer > p{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 100%;
+    margin-top: 2em;
     .left-header{
         display: flex;
         align-items: center;
@@ -179,7 +180,7 @@ footer > p{
             background-color: var(--color-secondary);
             position: absolute;
             top: 0;
-            right: 20%;
+            left: 0;
             z-index: -1;
         }
         .image{
